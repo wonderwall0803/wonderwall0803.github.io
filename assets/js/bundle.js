@@ -247,7 +247,7 @@ function _classCallCheck(instance,Constructor){if(!(instance instanceof Construc
  * ページによってcode-splitされたJSを振り分ける仕組み
  *
  * @return {any} - module
- */var getComponent=function getComponent(){var pathname;return regeneratorRuntime.async(function getComponent$(_context){while(1){switch(_context.prev=_context.next){case 0:pathname=window.location.pathname;if(!Object(path_to_regexp__WEBPACK_IMPORTED_MODULE_4__["pathToRegexp"])('/').exec(pathname)){_context.next=4;break;}_context.next=4;return regeneratorRuntime.awrap(__webpack_require__.e(/*! import() | index */ "index").then(__webpack_require__.t.bind(null, /*! ./pages/index/index */ "./src/js/pages/index/index.js", 7)).then(function(module){new module.default();}));case 4:case"end":return _context.stop();}}});};var Main=function Main(){_classCallCheck(this,Main);getComponent();};window.addEventListener('DOMContentLoaded',function(){new Main();});
+ */var getComponent=function getComponent(){var pathname;return regeneratorRuntime.async(function getComponent$(_context){while(1){switch(_context.prev=_context.next){case 0:pathname=window.location.pathname;if(!Object(path_to_regexp__WEBPACK_IMPORTED_MODULE_4__["pathToRegexp"])('/').exec(pathname)){_context.next=4;break;}_context.next=4;return regeneratorRuntime.awrap(__webpack_require__.e(/*! import() | index */ "index").then(__webpack_require__.bind(null, /*! ./pages/index/index */ "./src/js/pages/index/index.js")).then(function(module){new module.default();}));case 4:case"end":return _context.stop();}}});};var Main=function Main(){_classCallCheck(this,Main);getComponent();};window.addEventListener('DOMContentLoaded',function(){new Main();});
 
 /***/ }),
 
